@@ -13,6 +13,7 @@ resource aws_ecr_repository "repository" {
     git_org              = "bridgecrewio"
     git_repo             = "terragoat"
     yor_trace            = "7a3ec657-fa54-4aa2-8467-5d08d6c90bc2"
+    git_token            = "f85561cb-cef7-4144-ac86-f7d7dbff658b"
   })
 }
 
