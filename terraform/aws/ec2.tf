@@ -230,7 +230,7 @@ resource "aws_route" "public_internet_gateway" {
 
 resource "aws_network_interface" "web-eni" {
   subnet_id   = aws_subnet.web_subnet.id
-  private_ips = ["172.16.10.100"]
+  private_ips = ["172.16.10.10"]
 
   tags = merge({
     Name = "${local.resource_prefix.value}-primary_network_interface"
